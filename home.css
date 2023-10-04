@@ -3,6 +3,7 @@
 
 }    
 .locandina {
+    width: 1000px;
     height: 100px;
 
     background-color: rgb(78,160,255);
@@ -19,7 +20,7 @@
     background-position:left;
 }
 .titolo {
-    background-position: center;  
+    font-size: 40px;  
 }
 .scritta-1 {
     color: lightslategrey;  
@@ -30,12 +31,31 @@
 .data {
     color: lightslategrey;  
 }
-.lorem-1 {
+.lorem {
     background-color: yellow;  
 }
 .link-1 {
-    background-image: url(img/monitor.jpg)  
+    color: white;
+    width: 312px;
+    height: 208px;
+    background-image: url(img/monitor.jpg);
 }
 .link-2 {
-    background-image: url(img/pattern.png)  
+    color: white;
+    width: 311px;
+    height: 207px;
+    background-image: url(img/graph.jpg);
+}
+th, td {
+    padding-right: 30px;   
+}
+th {
+    color: white;
+    background-color: aqua;   
+}
+.riga {
+    background-color: lightskyblue ;
+}
+.descrizione {
+    font-size: smaller ;
 }
